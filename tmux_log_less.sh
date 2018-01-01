@@ -27,8 +27,7 @@ do
     fi
     tmux rename-window $num
     tmux select-layout tiled
+    cd $home_dir
 done
-#Get home
-cd $home_dir
 
 tmux -2 attach-session

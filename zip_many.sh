@@ -18,7 +18,7 @@ do
     cd $core_path-$num
 
     zip ../$dirname-$num.zip $zip_files
+    cd $home_dir
 done
 
-cd $home_dir
 echo "Back at $(pwd)"
